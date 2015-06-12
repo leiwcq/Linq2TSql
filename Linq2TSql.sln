@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq2TSql.SchemaReader", "Linq2TSql.SchemaReader\Linq2TSql.SchemaReader.csproj", "{0647A0FE-CD96-4D2B-8166-24D5791D7BF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{8A28F62D-B3E9-4E71-B316-741C2CDD83D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq2TSql.Tester", "Tester\Linq2TSql.Tester\Linq2TSql.Tester.csproj", "{600C9FCE-BB33-42BC-AB49-B8815269381C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0647A0FE-CD96-4D2B-8166-24D5791D7BF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0647A0FE-CD96-4D2B-8166-24D5791D7BF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0647A0FE-CD96-4D2B-8166-24D5791D7BF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0647A0FE-CD96-4D2B-8166-24D5791D7BF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{600C9FCE-BB33-42BC-AB49-B8815269381C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{600C9FCE-BB33-42BC-AB49-B8815269381C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{600C9FCE-BB33-42BC-AB49-B8815269381C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{600C9FCE-BB33-42BC-AB49-B8815269381C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{600C9FCE-BB33-42BC-AB49-B8815269381C} = {8A28F62D-B3E9-4E71-B316-741C2CDD83D5}
+	EndGlobalSection
+EndGlobal
